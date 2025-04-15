@@ -30,9 +30,9 @@ services:
       # Configures Flask to run in production mode
       - FLASK_ENV=production
       # Specifies the admin username for the service
-      - ADMIN_USERNAME=casaos
+      - ADMIN_USERNAME=CATPRI
       # Specifies the admin password for the service
-      - ADMIN_PASSWORD=casaos
+      - ADMIN_PASSWORD=parola@casaOS
 
     # Volume mappings required for system integration
     # These mounts allow the container to interact with the host system
